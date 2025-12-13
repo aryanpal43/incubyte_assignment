@@ -366,7 +366,7 @@ AI assisted in:
 2. **Code Review**: Enhanced ability to review and refine AI-generated code
 3. **Architecture**: Better understanding of clean architecture through AI suggestions
 #### future overview 
-[![Watch the video](https://www.istockphoto.com/photos/future-vision.jpg)](https://drive.google.com/file/d/14sIWy_KYUP-XJxJECaULrQeRlTAhLHF-/view?usp=drive_link)
+[![Watch the video](future.jpg)](https://drive.google.com/file/d/14sIWy_KYUP-XJxJECaULrQeRlTAhLHF-/view?usp=drive_link)
 
 
 ### AI-Assisted Commit Messages
