@@ -365,7 +365,7 @@ AI assisted in:
 1. **TDD Discipline**: Using AI for test generation reinforced TDD principles
 2. **Code Review**: Enhanced ability to review and refine AI-generated code
 3. **Architecture**: Better understanding of clean architecture through AI suggestions
-#### future overview 
+#### future overview {MUST CLICK THE PICTURE IT HAS VIDEO CLICK PICTURE ⬇️⬇️👇👇👇👇}
 [![Watch the video](future.png)](https://drive.google.com/file/d/14sIWy_KYUP-XJxJECaULrQeRlTAhLHF-/view?usp=drive_link)
 
 
