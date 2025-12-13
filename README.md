@@ -366,9 +366,9 @@ AI assisted in:
 2. **Code Review**: Enhanced ability to review and refine AI-generated code
 3. **Architecture**: Better understanding of clean architecture through AI suggestions
 #### future overview 
-<video width="600" controls>
-  <source src="https://drive.google.com/file/d/14sIWy_KYUP-XJxJECaULrQeRlTAhLHF-/view?usp=sharing" type="video/mp4">
-</video>
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/14sIWy_KYUP-XJxJECaULrQeRlTAhLHF-/view?usp=drive_link)
+
+
 ### AI-Assisted Commit Messages
 
 Following the transparency requirement, commit messages would include:
