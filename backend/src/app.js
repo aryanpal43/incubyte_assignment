@@ -5,18 +5,28 @@ const sweetRoutes = require('./routes/sweet.routes');
 
 const app = express();
 
-// Middleware
-app.use(cors({
+// Middleware - CORS configuration
+const corsOptions = {
   origin: [
     'http://localhost:3000', 
     'http://localhost:5173',
     'https://incubyte-assignment-hpkx.onrender.com',
+    'https://incubyte-assignment-sigma.vercel.app',
     /\.onrender\.com$/, // Allow all Render.com subdomains
+    /\.vercel\.app$/, // Allow all Vercel subdomains
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
-}));
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
+
+// Handle preflight requests explicitly
+app.options('*', cors(corsOptions));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
