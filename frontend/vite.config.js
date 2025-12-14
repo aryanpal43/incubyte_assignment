@@ -9,6 +9,7 @@ export default defineConfig({
       '/api': {
         target: 'https://incubyte-assignment-hpkx.onrender.com',
         changeOrigin: true,
+        secure: true,
       },
     },
   },

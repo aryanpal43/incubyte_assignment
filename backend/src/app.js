@@ -6,7 +6,17 @@ const sweetRoutes = require('./routes/sweet.routes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:5173',
+    'https://incubyte-assignment-hpkx.onrender.com',
+    /\.onrender\.com$/, // Allow all Render.com subdomains
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
