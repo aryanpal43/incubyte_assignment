@@ -1,4 +1,4 @@
-# Sweet Shop Management System
+# Sweet Shop Management System assignment 
 
 A comprehensive full-stack application for managing a sweet shop inventory with user authentication, role-based access control, and real-time inventory management.
 
